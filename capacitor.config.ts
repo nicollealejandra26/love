@@ -1,9 +1,10 @@
 import type { CapacitorConfig } from '@capacitor/cli';
 
-const config: CapacitorConfig = {
-  appId: 'com.example.app',
-  appName: 'love',
-  webDir: 'public'
-};
+const config = {
+  appId: "com.love.app",
+  appName: "Love",
+  webDir: "out",
+  bundledWebRuntime: false,
+} as unknown as CapacitorConfig;
 
 export default config;
