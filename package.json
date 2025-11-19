@@ -1,12 +1,12 @@
-{
-  "name": "love",
-  "version": "0.1.0",
-  "private": true,
+        {
+          "name": "love-main",
+          "version": "0.1.0",
+          "private": true,
+          "homepage": "./",
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export",
-    "start": "next start",
-    "lint": "eslint"
+    "build": "next build",
+    "start": "next start"
   },
   "dependencies": {
     "@capacitor/android": "^7.4.4",
